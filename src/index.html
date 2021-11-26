@@ -10,6 +10,16 @@
     <meta name="viewport" content="width=device-width, initial-scale=1" />
   </head>
   <body>
+            <div class="checkout_form">
+                <form action="/form.php" autocomplete="on">
+                <input type="text" name="name"><br>
+                <input type="email" name="email" autocomplete="off">
+                <label for="frmPhoneNumA">Phone</label>
+<input type="tel" name="phone" id="frmPhoneNumA"
+placeholder="+1-555-555-1212" required autocomplete="tel">
+<label for="address">City</label>
+  <input type="text" id="address" name="city" autocomplete="shipping address-level2">
+</form>
     <div class="main">
       <div class="emoji mb-6">💣🤯💥</div>
       <button class="button">Boom?</button>
